@@ -23,6 +23,8 @@ This is by far the fastest and easiest way to install Open Solo right now. It is
    - If you have the HERE gps/compass, load the _HERE Parameters_ package.
    - If you have the landing gear mod, load the _Landing Gear Parameters__ package.
    - Reboot the solo after loading all the applicable packages.
-   
+
+8. In the Solex vehicle settings menu, you can verify everything installed by scrolling to the bottom and looking at the listed version information. Controller and Vehicle should say 2.4.9 for now since I can't put "-RCx") in it.  Controller FW should say Open Solo 2.5-RCx.  And autopilot FW should say 1.5.3 for a stock cube, and 3.5.x for a green cube.
+
 ### Installation Complete! ###
 Proceed to the [post-installation instructions!](../master/install_post.md)
