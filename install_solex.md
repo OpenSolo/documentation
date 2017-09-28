@@ -5,7 +5,7 @@ This is by far the fastest and easiest way to install Open Solo right now. It is
 
 2. **Reconnect:** Once you've downloaded both, reconnect your mobile device to the Solo WiFi and make sure Solex says connected to vehicle. Again, your solo and controller must be fully charged, powered on, paired, connected, and not malfunctioning. 
 
-3. **Install:** From the firmware updates menu in Solex, tap the _Open Solo 2.5-RC1 Clean Install_ package that you previously downloaded. Again, be patient while numerous large files are extracted and scripts execute. Do not push buttons, exit the app, mess with the Solo, etc. Let it do its thing. Do this for both the controller package and the copter package. The process the same. You must do both.
+3. **Install:** From the firmware updates menu in Solex, tap either the _Open Solo 2.5 Clean Install (Controller)_ or _Open Solo 2.5 Clean Install (Copter)_ package that you previously downloaded. Again, be patient while numerous large files are extracted and scripts execute. Do not push buttons, exit the app, mess with the Solo, etc. Let it do its thing. Do this for both the controller package and the copter package. The process the same. You must do both.
 
 4. **Reboot:** Power cycle the Solo and controller once the Solex installation packages have both completed successfully. When they power back on, they will automatically begin a factory reset procedure. Since we just installed Open Solo on the recovery partitions, they are factory resetting to Open Solo! They will then automatically execute a second update procedure, cleanly installing Open Solo on the system partition.
     - You will likely hear the Pixhawk reboot 4 to 5 times. You may hear the firmware success happy tones from the pixhawk as well. All normal.
