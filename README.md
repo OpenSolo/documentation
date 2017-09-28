@@ -6,7 +6,7 @@ The team working on safe, reliable releases of Open Solo publishes them here. Yo
 - [Install using the Solex app on Android](../master/install_solex.md)
 - [Install using SidePilot app on iOS](../master/initial_sidepilot.md)
 - Install using SSH/SFTP on widows or mac (No procedure has been created yet)
-- [New green cube installation procedure]((../master/green_cube_install.md)
+- [New green cube installation procedure](../master/green_cube_install.md)
 
 ### _Support, Social Media, and other useful links_ ###
 * [Solo Beta Test](https://www.facebook.com/groups/617648671719759/) group on Facebook (primary Open Solo support group!!)
