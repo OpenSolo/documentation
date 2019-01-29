@@ -14,13 +14,13 @@ _Please read this entire set of release notes and instructions.  Every word is c
 
 **Stock/Black Cube Users:** This will be a huge upgrade for you. You are leaping 3+ years into the future of ArduPilot from the old circa 2015 modified ArduCopter 3.2.  This is the first time the slew rate limiting code has been brought into ArduCopter master, and as such is the first time you can safely fly it in a stock/black cube Solo.  You are the most important test users!
 
-**Green Cube Users:** You can still install and fly this. It will handle the same as a stock/black cube Solo will handle.  The slew limiting parameter is enabled by default, and the PID tuning parameters reflect that as well.  You may notice a slight reduction in how crisp and snappy it handles, as is the nature of the slew rate limiting. But there are no other ill-effects.  You will also have all the other new features that come with 3.7 to test out (flight modes, ChibiOS, etc).  The more uses that test and tune this, the better.  So even if you have a Green Cube, please give this a whirl.
+**Green Cube Users:** You can still install and fly this. It will handle the same as a stock/black cube Solo will handle, which so far handles really great.  The slew limiting parameter is enabled by default, and the PID tuning parameters reflect that as well.  You may notice a slight reduction in how crisp and snappy it handles, as is the nature of the slew rate limiting. But there are no other ill-effects.  You will also have all the other new features that come with 3.7 to test out (flight modes, ChibiOS, etc).  The more uses that test and tune this, the better.  So even if you have a Green Cube, please give this a whirl.
 
 ## WHAT
 
-### ArduCopter 3.7-Dev + Patches
+### ArduCopter 3.7-Dev
 
-The test package contains ArduCopter 3.7-dev (master) as of Saturday 12/8/2018.  This build of ArduCopter 3.7-dev has upcoming patches for the slew rate limiting required by the stock cubes and restoring the GoPro automatic power-off.  These two patches will be merged into master once we do this testing.  ArduCopter 3.7-dev is light years ahead of the old 3DR firmware, which was based on ArduCopter 3.2 in 2015.  It is also significantly ahead of the version that shipped with Open Solo for Green Cubes, which was ArduCopter 3.5.4.  _All required parameter values are baked in by default!! You do NOT need to load any parameter files._
+The test package contains ArduCopter 3.7-dev (master) as of Monday 1/28/2019.  As of this date, ArduCopter master (3.7-dev) has the slew rate limiting required by the stock cubes and also restores the GoPro automatic power-off.  ArduCopter 3.7-dev is light years ahead of the old 3DR firmware, which was based on ArduCopter 3.2 in 2015.  It is also significantly ahead of the version that shipped with Open Solo for Green Cubes, which was ArduCopter 3.5.4.  _All required parameter values are baked in by default!! You do NOT need to load any parameter files._
 
 ### Updated Python Files For IMX
 
@@ -38,15 +38,17 @@ Testing is needed ASAP. ArduCopter 3.7.0 will likely be released in the next few
 - You must have the Solex or SidePilot app to load the installer packages and use the new features.  And the app must be updated with the latest for the Play Store / App Store.
 - You must be willing to be a test pilot. This may not be perfect yet.  It could explode in mid-air, or crash, or do something else we couldn't predict. Please give us your feedback!!
 
-### INSTALL
+### INSTALL USING SOLEX
+
+You must be on Solex v1.8.3 or higher!
 
 #### ArduCopter Firmware
 
 1. **While connected to the Internet**, go to the Solex FW Updates menu.  Press refresh and cleanup.
-2. Tap the _ArduCopter 3.7-Dev Slew Test_ package.  Tap download. Available will change to downloaded once complete.
+2. Tap the _ArduCopter 3.7-Dev Test_ package.  Tap download. Available will change to downloaded once complete.
 3. Tap the _ArduCopter 3.6 and 3.7 Controller Update_ package.  Tap download. Available will change to downloaded once complete.
 4. **Reconnect to Solo WiFi** and Connect Solex to the Solo. Allow parameter download to complete.
-5. In the Solex FW Updates menu, tap the _ArduCopter 3.7-Dev Slew Test_ package. Tap install and proceed.
+5. In the Solex FW Updates menu, tap the _ArduCopter 3.7-Dev Test_ package. Tap install and proceed.
 6. When prompted, you can close the FW install menus in Solex.
 7. Turn the Solo off and back on. It will click and the lights will go disco.
 8. Completing Installation:
@@ -79,5 +81,3 @@ Proceed to the [post-installation instructions](../master/install_post.md) to do
 - Fly it.  We need people to report how it handles and how the flight modes are working out.
 - Tune it.  If you are familiar with ArduCopter PID tuning, and want to try dialing it even better, please do so and report your results
 - Feedback is needed.  Please tell us everything you like or dislike. Tell us what worked and didn't work. 
-
-## WARNING: Do not use the _very fast_ speed slider setting in Solex until further notice.  There is an error in the acceleration value sent to the Solo, and it will handle very poorly.  All other speed sliders from very slow up to and including fast work fine.  Once this is fixed in the next Solex update, this warning will be removed.
