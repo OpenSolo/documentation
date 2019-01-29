@@ -2,7 +2,7 @@
 
 ***NEW: ARDUCOPTER 3.7-DEV TESTING***
 
-[Click here for release notes and instructions](../master/install_solex.md) as of December 8, 2018 for beta testing ArduCopter 3.7-dev on the Solo.  You must already be on Open Solo to do this.  This is a major beta testing project.
+[Click here for release notes and instructions](../master/copter37.md) as of January 28, 2019 for beta testing ArduCopter 3.7-dev on the Solo.  You must already be on Open Solo to do this.  This is a major beta testing project.
 
 ## INFORMATION CURRENT FOR STABLE RELEASE OPEN SOLO v3.0.0 ON JANUARY 1, 2018 ##
 
