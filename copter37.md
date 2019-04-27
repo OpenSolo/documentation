@@ -20,7 +20,7 @@ _Please read this entire set of release notes and instructions.  Every word is c
 
 ### ArduCopter 3.7-Dev
 
-The test package contains ArduCopter 3.7-dev (master) as of Monday 1/28/2019.  As of this date, ArduCopter master (3.7-dev) has the slew rate limiting required by the stock cubes and also restores the GoPro automatic power-off.  ArduCopter 3.7-dev is light years ahead of the old 3DR firmware, which was based on ArduCopter 3.2 in 2015.  It is also significantly ahead of the version that shipped with Open Solo for Green Cubes, which was ArduCopter 3.5.4.  _All required parameter values are baked in by default!! You do NOT need to load any parameter files._
+The test package contains ArduCopter 3.7-dev (master) as of Saturday April 27, 2019.  ArduCopter master (3.7-dev) has the slew rate limiting required by the stock cubes and also restores the GoPro automatic power-off.  ArduCopter 3.7-dev is light years ahead of the old 3DR firmware, which was based on ArduCopter 3.2 in 2015.  It is also significantly ahead of the version that shipped with Open Solo for Green Cubes, which was ArduCopter 3.5.4.  _All required parameter values are baked in by default!! You do NOT need to load any parameter files._
 
 ### Updated Python Files For IMX
 
@@ -45,10 +45,10 @@ You must be on Solex v1.8.3 or higher!
 #### ArduCopter Firmware
 
 1. **While connected to the Internet**, go to the Solex FW Updates menu.  Press refresh and cleanup.
-2. Tap the _ArduCopter 3.7-Dev Test_ package.  Tap download. Available will change to downloaded once complete.
+2. Tap the _ArduCopter 3.7-dev First Time Install_ package.  Tap download. Available will change to downloaded once complete.
 3. Tap the _ArduCopter 3.6 and 3.7 Controller Update_ package.  Tap download. Available will change to downloaded once complete.
 4. **Reconnect to Solo WiFi** and Connect Solex to the Solo. Allow parameter download to complete.
-5. In the Solex FW Updates menu, tap the _ArduCopter 3.7-Dev Test_ package. Tap install and proceed.
+5. In the Solex FW Updates menu, tap the _ArduCopter 3.7-dev First Time Install_ package. Tap install and proceed.
 6. When prompted, you can close the FW install menus in Solex.
 7. Turn the Solo off and back on. It will click and the lights will go disco.
 8. Completing Installation:
