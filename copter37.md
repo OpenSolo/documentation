@@ -20,11 +20,11 @@ _Please read this entire set of release notes and instructions.  Every word is c
 
 ### ArduCopter 3.7-Dev
 
-The test package contains ArduCopter 3.7-dev (master) as of Saturday April 27, 2019.  ArduCopter master (3.7-dev) has the slew rate limiting required by the stock cubes and also restores the GoPro automatic power-off.  ArduCopter 3.7-dev is light years ahead of the old 3DR firmware, which was based on ArduCopter 3.2 in 2015.  It is also significantly ahead of the version that shipped with Open Solo for Green Cubes, which was ArduCopter 3.5.4.  _All required parameter values are baked in by default!! You do NOT need to load any parameter files._
+The test package contains ArduCopter 3.7-dev (master) as of August 25, 2019.  ArduCopter master (3.7-dev) has the slew rate limiting required by the stock cubes and also restores the GoPro automatic power-off.  ArduCopter 3.7-dev is light years ahead of the old 3DR firmware, which was based on ArduCopter 3.2 in 2015.  It is also significantly ahead of the version that shipped with Open Solo for Green Cubes, which was ArduCopter 3.5.4.  _All required parameter values are baked in by default!! You do NOT need to load any parameter files._
 
 ### Updated Python Files For IMX
 
-Numerous python files are included which will be loaded onto the Solo's IMX companion computer.  These files allow access to all of ArduCopter's new flight modes.  They also add error handling and anti-brick code to the firmware loading process.
+Numerous python files are included which will be loaded onto the Solo's IMX companion computer.  These files allow access to all of ArduCopter's new flight modes.  They also add error handling and anti-brick code to the firmware loading process. It will also automatically set the clock on the GoPro! 
 
 ## WHEN
 
